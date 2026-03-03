@@ -3,8 +3,8 @@ import requests
 import time
 import pandas as pd
 
-API_URL = "http://127.0.0.1:8000/predict"
-HEALTH_URL = "http://127.0.0.1:8000/health"
+API_URL = "/predict"
+HEALTH_URL = "/health"
 
 # -------- Page Config --------
 st.set_page_config(page_title="Twitter Sentiment Analyzer", page_icon="🐦", layout="wide")
